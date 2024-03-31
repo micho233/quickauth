@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QuickAuth'
-  s.version          = '1.0.0'
+  s.version          = '1.0.2'
   s.summary          = 'QuickAuth is simple OAuth2 authentication library designed for Swift applications.'
   s.description      = <<-DESC
   QuickAuth is simple OAuth2 authentication library designed for Swift applications. It handles all authorized and non-authorized network requests, leveraging access and refresh tokens for authentication. QuickAuth emphasizes security by avoiding the storage of sensitive information on the library side, instead delegating this responsibility to the client application. Importantly, QuickAuth is built on the Combine framework, offering a modern approach to asynchronous programming in Swift.
