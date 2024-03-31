@@ -6,9 +6,9 @@ import PackageDescription
 let package = Package(
     name: "QuickAuth",
     platforms: [
-        .macOS(.v10_13),
+        .macOS(.v10_15),
         .iOS(.v13),
-        .watchOS(.v4),
+        .watchOS(.v7),
         .tvOS(.v12)
     ],
     products: [

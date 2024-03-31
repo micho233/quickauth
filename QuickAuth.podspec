@@ -21,5 +21,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/Hepek233'
 
   s.ios.deployment_target = '13.0'
+  s.osx.deployment_target = "10.15"
+  s.watchos.deployment_target = '7.0'
   s.source_files = 'Sources/**/*'
 end
