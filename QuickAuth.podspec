@@ -22,6 +22,8 @@ Pod::Spec.new do |s|
 
   s.cocoapods_version = '>= 1.13.0'
 
+  s.swift_versions = ['5']
+
   s.ios.deployment_target = '13.0'
   s.osx.deployment_target = "10.15"
   s.watchos.deployment_target = '7.0'
